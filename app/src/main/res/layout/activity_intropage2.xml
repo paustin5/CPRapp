@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntroPage">
+    tools:context=".IntroPage2">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -24,7 +24,6 @@
             android:layout_marginStart="295dp"
             android:layout_marginLeft="295dp"
             android:layout_marginTop="458dp"
-            android:onClick="nextView"
             android:text="Next" />
 
         <Button
@@ -39,10 +38,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="59dp"
+            android:layout_marginTop="103dp"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:text="“CPR is an emergency lifesaving procedure performed when the heart stops beating. Immediate CPR can double or triple chances of survival after cardiac arrest.”" />
+            android:text="Every second counts when saving a life" />
 
         <EditText
             android:id="@+id/text2"
@@ -56,17 +55,7 @@
             android:layout_marginTop="192dp"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:text="Heart attacks can happen anytime, anyplace -- and to anyone. And when they do, every minute matters." />
-
-        <EditText
-            android:id="@+id/editText6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="143dp"
-            android:ems="10"
-            android:inputType="textMultiLine"
-            android:text="After this training, you will have learned how to react in the in the event of an emergency." />
+            android:text="When someone is in need of CPR, immediate action should be taken. First, if there is anyone else nearby, instruct them to call 911" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

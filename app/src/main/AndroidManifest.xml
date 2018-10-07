@@ -24,6 +24,7 @@
         <activity android:name="CPRSteps2"> </activity>
         <activity android:name="CPRSteps3"> </activity>
         <activity android:name="IntroPage"> </activity>
+        <activity android:name="IntroPage2"> </activity>
         <activity android:name="WelcomePage"> </activity>
     </application>
 

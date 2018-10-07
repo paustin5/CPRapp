@@ -20,6 +20,6 @@ public class CPRSteps1 extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 5000);
+        }, 7000);
     }
 }

@@ -20,6 +20,6 @@ public class BeforeCPR4 extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 5000);
+        }, 7000);
     }
 }

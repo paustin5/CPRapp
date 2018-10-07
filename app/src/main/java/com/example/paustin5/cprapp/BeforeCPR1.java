@@ -3,6 +3,7 @@ package com.example.paustin5.cprapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -20,6 +21,14 @@ public class BeforeCPR1 extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 5000);
+        }, 7000);
+    }
+    public void cpr1ToCpr2(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    public void cpr1toMain(View view) {
+        Intent intent = new Intent(this, BeforeCPR2.class);
+        startActivity(intent);
     }
 }
