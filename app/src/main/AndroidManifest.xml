@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="BeforeCPR1"> </activity>
+        <activity android:name="BeforeCPR2"> </activity>
+        <activity android:name="BeforeCPR3"> </activity>
+        <activity android:name="BeforeCPR4"> </activity>
+        <activity android:name="CPRSteps1"> </activity>
+        <activity android:name="CPRSteps2"> </activity>
+        <activity android:name="CPRSteps3"> </activity>
+        <activity android:name="IntroPage"> </activity>
+        <activity android:name="WelcomePage"> </activity>
     </application>
 
 </manifest>

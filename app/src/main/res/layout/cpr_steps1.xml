@@ -58,6 +58,15 @@
             android:inputType="textMultiLine"
             android:text="Push hard, push fast. Place your hands, one on top of the other, in the middle of the chest. Use your body weight to help you administer compressions that are at least 2 inches deep and delivered at a rate of at least 100 compressions per minute. " />
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="166dp"
+            android:layout_height="205dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            app:srcCompat="@drawable/compressions" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

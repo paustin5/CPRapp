@@ -56,6 +56,15 @@
             android:inputType="textMultiLine"
             android:text='Check the scene and the person. Make sure the scene is safe, then tap the person on the shoulder and shout "Are you OK?" to ensure that the person needs help.' />
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="194dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="83dp"
+            app:srcCompat="@drawable/check" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -56,6 +56,15 @@
             android:inputType="textMultiLine"
             android:text="Open the airway. With the person lying on his or her back, tilt the head back slightly to lift the chin." />
 
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="186dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp"
+            app:srcCompat="@drawable/check" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
