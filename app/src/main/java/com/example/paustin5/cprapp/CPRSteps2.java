@@ -8,6 +8,6 @@ public class CPRSteps2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.CPRSteps2);
+        setContentView(R.layout.cpr_steps2);
     }
 }
